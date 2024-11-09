@@ -6,16 +6,16 @@ export function ContactPage(){
     const [email, setEmail] = useState("");
     const [subject, setSubject] = useState("");
     const [message, setMessage] = useState("");
-    const [isSent, setIsSent] = useState(false); // Flag to show success message
+    const [isSent, setIsSent] = useState(false); 
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         
-        // Simulate email sending here
+        
         setTimeout(() => {
-            // You can integrate actual email API or service like EmailJS or SendGrid here
+           
             console.log("Email sent:", { name, email, subject, message });
-            setIsSent(true); // Show success message
+            setIsSent(true);
             setName("");
             setEmail("");
             setSubject("");

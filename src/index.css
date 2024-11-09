@@ -3,19 +3,18 @@
 @tailwind utilities;
 
 @layer components {
-    /* For Webkit Browsers (Chrome, Safari, Edge) */
     ::-webkit-scrollbar {
-        width: 8px; /* Set width of the scrollbar */
+        width: 8px; 
     }
 
     ::-webkit-scrollbar-thumb {
-        background-color: rgba(75, 85, 99, 0.7); /* Dark gray with opacity */
-        border-radius: 8px; /* Rounded corners */
-        border: 2px solid rgba(75, 85, 99, 0.3); /* Light border around thumb */
+        background-color: rgba(75, 85, 99, 0.7); 
+        border-radius: 8px;
+        border: 2px solid rgba(75, 85, 99, 0.3); 
     }
 
     ::-webkit-scrollbar-track {
-        background: rgba(209, 213, 219, 0.3); /* Light background */
+        background: rgba(209, 213, 219, 0.3); 
         border-radius: 8px;
     }
 
