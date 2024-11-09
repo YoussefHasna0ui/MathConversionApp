@@ -1,0 +1,29 @@
+{
+    "length": {
+        "meters": 1,
+        "kilometers": 0.001,
+        "centimeters": 100,
+        "millimeters": 1000,
+        "inches": 39.3701,
+        "feet": 3.28084,
+        "yards": 1.09361,
+        "miles": 0.000621371
+    },
+    "mass": {
+        "grams": 1,
+        "kilograms": 0.001,
+        "milligrams": 1000,
+        "ounces": 0.035274,
+        "pounds": 0.00220462,
+        "tons": 1e-6
+    },
+    "volume": {
+        "liters": 1,
+        "milliliters": 1000,
+        "cubicMeters": 0.001,
+        "gallons": 0.264172,
+        "quarts": 1.05669,
+        "pints": 2.11338,
+        "cups": 4.22675
+    }
+}
